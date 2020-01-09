@@ -1,0 +1,400 @@
+{
+    "_id": ObjectId("5c812fa6b6a73306d44f4e07"),
+    "_class": "com.mttnow.tripstore.trips.model.Trip",
+    "tenantId": "philips",
+    "version": NumberLong(14),
+    "title": "Haifa, IL",
+    "providedId": "A7oTUVSiOlwfZJqdnkFcZA",
+    "startTime": {
+        "dateTime": ISODate("2019-03-17T13:00:00Z"),
+        "timeZone": "+01:00"
+    },
+    "startTimeZone": {
+        "timeZoneId": "Europe/Paris",
+        "name": "CET",
+        "evaluationType": "GEOLOCATION"
+    },
+    "endTime": {
+        "dateTime": ISODate("2019-09-16T00:00:00Z"),
+        "timeZone": "UTC"
+    },
+    "destination": {
+        "shortName": "Millennium Opera",
+        "fullName": "Millennium Opera",
+        "latitude": 48.856614,
+        "longitude": 2.3522219,
+        "city": "Paris",
+        "countryCode": "FR",
+        "metadata": {}
+    },
+    "owners": [
+        "c1d1062b-7eaf-4a0f-96c3-77fd92f323a0"
+    ],
+    "ownersWithStatus": [
+        {
+            "uuid": "c1d1062b-7eaf-4a0f-96c3-77fd92f323a0",
+            "status": "ACTIVE"
+        }
+    ],
+    "segments": [
+        {
+            "providedId": "e9a9eb1a23298a67282d927702e55737",
+            "segmentType": "HOTEL",
+            "title": "Millennium Opera",
+            "confirmationNumber": "4VYZU1T4K",
+            "bookingStatus": "ACTIVE",
+            "startTime": {
+                "dateTime": ISODate("2019-03-17T13:00:00Z"),
+                "timeZone": "+01:00"
+            },
+            "startTimeZone": {
+                "timeZoneId": "Europe/Paris",
+                "name": "CET",
+                "evaluationType": "GEOLOCATION"
+            },
+            "endTime": {
+                "dateTime": ISODate("2019-03-20T10:00:00Z"),
+                "timeZone": "+01:00"
+            },
+            "endTimeZone": {
+                "timeZoneId": "Europe/Paris",
+                "name": "CET",
+                "evaluationType": "GEOLOCATION"
+            },
+            "startPoint": {
+                "shortName": "Millennium Opera",
+                "fullName": "Millennium Opera",
+                "latitude": 48.856614,
+                "longitude": 2.3522219,
+                "city": "Paris",
+                "countryCode": "FR",
+                "metadata": {}
+            },
+            "endPoint": {
+                "shortName": "Millennium Opera",
+                "fullName": "Millennium Opera",
+                "latitude": 48.856614,
+                "longitude": 2.3522219,
+                "city": "Paris",
+                "countryCode": "FR",
+                "metadata": {}
+            },
+            "metadata": {
+                "tripBookingReference": "P9P5PJ"
+            },
+            "sourceType": "TVPT",
+            "legs": [
+                {
+                    "originalLeg": {
+                        "providedId": "e9a9eb1a23298a67282d927702e55737",
+                        "startPoint": {
+                            "shortName": "Millennium Opera",
+                            "fullName": "Millennium Opera",
+                            "latitude": 48.8724973,
+                            "longitude": 2.3378894,
+                            "address1": "12 BOULEVARD HAUSMANN",
+                            "city": "Paris",
+                            "postCode": "FR",
+                            "stateCode": "75009",
+                            "countryCode": "FR",
+                            "metadata": {}
+                        },
+                        "endPoint": {
+                            "shortName": "Millennium Opera",
+                            "fullName": "Millennium Opera",
+                            "latitude": 48.8724973,
+                            "longitude": 2.3378894,
+                            "address1": "12 BOULEVARD HAUSMANN",
+                            "city": "Paris",
+                            "postCode": "FR",
+                            "stateCode": "75009",
+                            "countryCode": "FR",
+                            "metadata": {}
+                        },
+                        "startTime": {
+                            "dateTime": ISODate("2019-03-17T13:00:00Z"),
+                            "timeZone": "+01:00"
+                        },
+                        "startTimeZone": {
+                            "timeZoneId": "Europe/Paris",
+                            "name": "CET",
+                            "evaluationType": "GEOLOCATION"
+                        },
+                        "endTime": {
+                            "dateTime": ISODate("2019-03-20T11:00:00Z"),
+                            "timeZone": "+01:00"
+                        },
+                        "endTimeZone": {
+                            "timeZoneId": "Europe/Paris",
+                            "name": "CET",
+                            "evaluationType": "GEOLOCATION"
+                        },
+                        "passengers": [
+                            {
+                                "name": "RAFFI KAYAYAN",
+                                "ancillaries": [],
+                                "metadata": {}
+                            }
+                        ],
+                        "vendor": "Millennium Htls",
+                        "vendorCode": "MU",
+                        "metadata": {
+                            "MTT_TRIP_LEG_DATA_SOURCE": "PNR",
+                            "bookingReference": "4VYZU1T4K",
+                            "amount": "484.88",
+                            "MTT_TRIP_PROVIDED_ID": "1VP9P5PJ20190305",
+                            "currency": "EUR",
+                            "contactPhone": "33-1-49491600"
+                        },
+                        "direction": "TRANSITION",
+                        "connectionType": "NONE",
+                        "layoverType": "NONE"
+                    },
+                    "providedId": "e9a9eb1a23298a67282d927702e55737",
+                    "startPoint": {
+                        "shortName": "Millennium Opera",
+                        "fullName": "Millennium Opera",
+                        "latitude": 48.856614,
+                        "longitude": 2.3522219,
+                        "city": "Paris",
+                        "countryCode": "FR",
+                        "metadata": {}
+                    },
+                    "endPoint": {
+                        "shortName": "Millennium Opera",
+                        "fullName": "Millennium Opera",
+                        "latitude": 48.856614,
+                        "longitude": 2.3522219,
+                        "city": "Paris",
+                        "countryCode": "FR",
+                        "metadata": {}
+                    },
+                    "startTime": {
+                        "dateTime": ISODate("2019-03-17T13:00:00Z"),
+                        "timeZone": "+01:00"
+                    },
+                    "startTimeZone": {
+                        "timeZoneId": "Europe/Paris",
+                        "name": "CET",
+                        "evaluationType": "GEOLOCATION"
+                    },
+                    "endTime": {
+                        "dateTime": ISODate("2019-03-20T10:00:00Z"),
+                        "timeZone": "+01:00"
+                    },
+                    "endTimeZone": {
+                        "timeZoneId": "Europe/Paris",
+                        "name": "CET",
+                        "evaluationType": "GEOLOCATION"
+                    },
+                    "passengers": [
+                        {
+                            "name": "KAYAYAN RAFFI",
+                            "ancillaries": [],
+                            "metadata": {
+                                "givenName": "RAFFI",
+                                "surname": "KAYAYAN"
+                            }
+                        }
+                    ],
+                    "vendor": "Millennium Htls",
+                    "vendorCode": "MU",
+                    "metadata": {
+                        "amount": "484.88",
+                        "currency": "EUR",
+                        "bookingReference": "4VYZU1T4K",
+                        "contactPhone": "",
+                        "MTT_TRIP_LEG_DATA_SOURCE": "PNR",
+                        "MTT_TRIP_PROVIDED_ID": "1VP9P5PJ20190305"
+                    },
+                    "direction": "TRANSITION",
+                    "duration": 4140,
+                    "connectionType": "NONE",
+                    "layoverType": "NONE"
+                }
+            ],
+            "direction": "TRANSITION",
+            "duration": 4140,
+            "sourceId": "1VP9P5PJ20190305",
+            "pcc": "1M9Q",
+            "core": "1V"
+        },
+        {
+            "providedId": "68989cb77315418e855a348443bb4900",
+            "segmentType": "CUSTOM",
+            "title": "TOUR",
+            "bookingStatus": "ACTIVE",
+            "startTime": {
+                "dateTime": ISODate("2019-09-16T04:00:00Z"),
+                "timeZone": "-04:00"
+            },
+            "startTimeZone": {
+                "timeZoneId": "America/New_York",
+                "name": "EDT",
+                "evaluationType": "GEOLOCATION"
+            },
+            "endTime": {
+                "dateTime": ISODate("2019-09-16T00:00:00Z"),
+                "timeZone": "UTC"
+            },
+            "startPoint": {
+                "shortName": "CLE",
+                "latitude": 41.49932,
+                "longitude": -81.6943605,
+                "city": "Cleveland",
+                "stateCode": "OH",
+                "countryCode": "US",
+                "metadata": {}
+            },
+            "endPoint": {
+                "metadata": {}
+            },
+            "metadata": {
+                "tripBookingReference": "P9P5PJ"
+            },
+            "sourceType": "TVPT",
+            "legs": [
+                {
+                    "originalLeg": {
+                        "providedId": "68989cb77315418e855a348443bb4900",
+                        "startPoint": {
+                            "shortName": "CLE",
+                            "latitude": 41.49932,
+                            "longitude": -81.6943605,
+                            "city": "Cleveland",
+                            "stateCode": "OH",
+                            "countryCode": "US",
+                            "metadata": {}
+                        },
+                        "endPoint": {
+                            "metadata": {}
+                        },
+                        "startTime": {
+                            "dateTime": ISODate("2019-09-16T04:00:00Z"),
+                            "timeZone": "-04:00"
+                        },
+                        "startTimeZone": {
+                            "timeZoneId": "America/New_York",
+                            "name": "EDT",
+                            "evaluationType": "GEOLOCATION"
+                        },
+                        "endTime": {
+                            "dateTime": ISODate("2019-09-16T00:00:00Z"),
+                            "timeZone": "UTC"
+                        },
+                        "passengers": [
+                            {
+                                "name": "KAYAYAN RAFFI ARAM",
+                                "ancillaries": [],
+                                "metadata": {
+                                    "additionalInfoKey": "5e3ec906-6655-40f3-bd64-2fbd732cdcd3",
+                                    "surname": "KAYAYAN",
+                                    "givenName": "RAFFI ARAM"
+                                }
+                            }
+                        ],
+                        "metadata": {
+                            "customSegmentType": "TAXI",
+                            "MTT_TRIP_LEG_DATA_SOURCE": "PNR",
+                            "MTT_TRIP_PROVIDED_ID": "1VP9P5PJ20190305",
+                            "notes": "American express global business travel.",
+                            "pnrIndexCustomSegmentType": "OTH"
+                        },
+                        "direction": "TRANSITION",
+                        "connectionType": "NONE",
+                        "layoverType": "NONE"
+                    },
+                    "providedId": "68989cb77315418e855a348443bb4900",
+                    "startPoint": {
+                        "shortName": "CLE",
+                        "latitude": 41.49932,
+                        "longitude": -81.6943605,
+                        "city": "Cleveland",
+                        "stateCode": "OH",
+                        "countryCode": "US",
+                        "metadata": {}
+                    },
+                    "endPoint": {
+                        "metadata": {}
+                    },
+                    "startTime": {
+                        "dateTime": ISODate("2019-09-16T04:00:00Z"),
+                        "timeZone": "-04:00"
+                    },
+                    "startTimeZone": {
+                        "timeZoneId": "America/New_York",
+                        "name": "EDT",
+                        "evaluationType": "GEOLOCATION"
+                    },
+                    "endTime": {
+                        "dateTime": ISODate("2019-09-16T00:00:00Z"),
+                        "timeZone": "UTC"
+                    },
+                    "passengers": [
+                        {
+                            "name": "KAYAYAN RAFFI ARAM",
+                            "ancillaries": [],
+                            "metadata": {
+                                "givenName": "RAFFI ARAM",
+                                "surname": "KAYAYAN",
+                                "additionalInfoKey": "e2579a5f-70b3-4d29-a6bd-c5c4a4fa0b03"
+                            }
+                        }
+                    ],
+                    "metadata": {
+                        "customSegmentType": "TAXI",
+                        "pnrIndexCustomSegmentType": "OTH",
+                        "notes": "American express global business travel.",
+                        "MTT_TRIP_LEG_DATA_SOURCE": "PNR",
+                        "MTT_TRIP_PROVIDED_ID": "1VP9P5PJ20190305"
+                    },
+                    "direction": "TRANSITION",
+                    "duration": -240,
+                    "connectionType": "NONE",
+                    "layoverType": "NONE"
+                }
+            ],
+            "direction": "TRANSITION",
+            "duration": -240,
+            "sourceId": "1VP9P5PJ20190305",
+            "pcc": "1M9Q",
+            "core": "1V"
+        }
+    ],
+    "metadata": {
+        "pcc": "1M9Q",
+        "core": "1V",
+        "rowkey": "1VP9P5PJ20190305",
+        "bookingReference": "P9P5PJ",
+        "reservationDate": "2019-03-05T00:00:00.000",
+        "vendorCode": "1M9Q",
+        "cost": "0",
+        "currencyCode": null,
+        "agencyName": "AMEX GLOBAL BUSINESS TVL",
+        "agencyStreetAddress": "10951 BUSH LAKE ROAD 2ND FLOOR",
+        "agencyCity": "BLOOMINGTON",
+        "agencyState": "MN",
+        "agencyZip": "55438",
+        "agencyCountryCode": "US",
+        "agencyCountryName": "USA",
+        "assistancePhone": "6235165069 CINDYMKIHERI 2 B 1873",
+        "tripSource": "PNR",
+        "ownerUuid": "c1d1062b-7eaf-4a0f-96c3-77fd92f323a0"
+    },
+    "dateCreated": {
+        "dateTime": ISODate("2019-03-07T14:50:14.188Z"),
+        "timeZone": "UTC"
+    },
+    "dateModified": {
+        "dateTime": ISODate("2019-03-22T17:33:25.914Z"),
+        "timeZone": "Etc/UTC"
+    },
+    "bookingStatus": "ACTIVE",
+    "segmentTypes": [
+        "HOTEL",
+        "CUSTOM"
+    ],
+    "duration": 262740,
+    "corporateId": "PHI",
+    "agenciesIds": []
+}
